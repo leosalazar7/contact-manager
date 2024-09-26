@@ -8,14 +8,14 @@
     <link icon="contact" href="images/contact.jpg">
 </head>
 <body>
-    <div>
-        <h1 id="title">
+    <div id="title">
+        <h1>
             Contact Manager
         </h1>
     </div>
     <div id="center-box">
         <h3>Sign-in</h3>
-        <form action="/login_page.php">
+        <form action="api/login_page.php">
             <label for="username">
                 Username:
             </label>
@@ -25,6 +25,8 @@
                 Password:
             </label>
             <input type="text" id="password" name="password">
+            <br><br>
+            <button>Submit</button>
         </form>
     </div>
 </body>
