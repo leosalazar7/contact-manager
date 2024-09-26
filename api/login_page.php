@@ -1,13 +1,9 @@
+Hi
+<?PHP
+echo htmlspecialchars($_GET['username']);
+?>.
+Your password is
 <?php
-if (str_contains($_SERVER['HTTP_USER_AGENT'], 'Firefox')) {
+echo htmlspecialchars($_GET['password']);
 ?>
-<h3>str_contains() returned true</h3>
-<p>You are using Firefox.</p>
-<?php
-} else {
-?>
-<h3>str_contains() returned false</h3>
-<p>You are not using Firefox.</p>
-<?php
-}
-?>
+.
