@@ -2,7 +2,7 @@
 CRUD contact manager using a LAMP stack.
 
 ## Tech Stack
-L - Linux
-A - Apache
-M - MySQL
-P - PHP
+L - Linux  
+A - Apache  
+M - MySQL  
+P - PHP  
