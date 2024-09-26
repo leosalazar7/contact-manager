@@ -19,5 +19,5 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           passphrase: ${{ secrets.SERVER_SSH_PASSPHRASE }}
           script: |
-            cd /home/bitnami
+            cd /opt/bitnami/apache/htdocs
             git pull origin main
