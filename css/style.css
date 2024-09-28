@@ -1,8 +1,8 @@
 #title {
     position: absolute;
-    width: auto;
+    width: 90%;
     height: auto;
-    top: 1%;
+    top: 0%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -10,13 +10,19 @@
 }
 
 #center-box {
-    position:absolute;
-    width: 300px;
-    height: 180px;
+    position: absolute;
+    width: auto;
+    height: auto;
     z-index: 15;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: grey;
     text-align: center;
+    border: 15px 5px 5px 15px solid grey;
+}
+
+#form-group {
+    display: flex;
+    align-items: center;
 }
