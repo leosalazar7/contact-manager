@@ -12,22 +12,26 @@
         <h1>
             Contact Manager
         </h1>
+        <hr>
     </div>
     <div id="center-box">
-        <h3>Sign-in</h3>
-        <form action="api/login_page.php" method="get">
+        <h2>Sign-in</h2>
+        <form action="api/auth.php" method="get">
             <label for="username">
                 Username:
+                <input type="text" id="username" name="username">
             </label>
-            <input type="text" id="username" name="username">
             <br><br>
             <label for="password">
                 Password:
+                <input type="password" id="password" name="password">
             </label>
-            <input type="password" id="password" name="password">
             <br><br>
             <button>Submit</button>
         </form>
+        <div>
+            <p>Don't have an account? <a>Sign Up</a></p>
+        </div>
     </div>
 </body>
 </html>
